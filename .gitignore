@@ -1,0 +1,9 @@
+# Dependency directory
+node_modules
+package-lock.json
+
+# Debug log from npm
+npm-debug.log
+
+# WebStorm configuration (remove after first git push)
+.idea

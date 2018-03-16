@@ -1,0 +1,20 @@
+{
+  "name": "late-inspect",
+  "version": "0.0.1",
+  "description": "Start debugger listener on a running Node.js process",
+  "bin" : { "lateinspect" : "index.js" },
+  "repository": "github:gonenduk/late-inspect",
+  "keywords": [
+    "debug",
+    "inspect"
+  ],
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "author": "Gonen Dukas <gonenduk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonenduk/late-inspect/issues"
+  },
+  "homepage": "https://github.com/gonenduk/late-inspect#readme"
+}
