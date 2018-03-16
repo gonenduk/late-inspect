@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const pid = parseInt(process.argv[2]);
 
 if (process.argv.length === 3 && pid > 0) {
