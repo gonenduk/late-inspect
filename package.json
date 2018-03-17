@@ -2,7 +2,7 @@
   "name": "late-inspect",
   "version": "0.0.2",
   "description": "Start debugger listener on a running Node.js process",
-  "bin" : { "lateinspect" : "index.js" },
+  "bin" : { "inspect" : "index.js" },
   "repository": "github:gonenduk/late-inspect",
   "keywords": [
     "debug",
