@@ -11,7 +11,7 @@ $ npm install -g late-inspect
 ## Usage
 
 ```bash
-$ lateinspect [process id]
+$ inspect [process id]
 ```
 
 Will signal a running Node.js process with that id to start the debugger listener.

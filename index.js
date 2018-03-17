@@ -11,5 +11,5 @@ if (process.argv.length === 3 && pid > 0) {
   }
 } else {
   console.log('\nThis tool is used to start the debugger listener in a running Node.js process.');
-  console.log('\nUsage: lateinspect [process id]');
+  console.log('\nUsage: inspect [process id]');
 }
