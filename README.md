@@ -28,6 +28,9 @@ Same effect as running with the --inspect flag without the need to restart the p
 
 Works on Windows, Mac and Unix systems.  
 
+For more available options run with -h or --help.
+
+
 ## License
 
 [ISC](LICENSE)
