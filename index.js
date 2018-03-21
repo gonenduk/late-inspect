@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const commandLineArgs = require('command-line-args');
+const ps = require('ps-node');
 
 const optionDefinitions = [
   { name: 'pid', type: Number, defaultOption: true },
@@ -35,7 +36,17 @@ function printVersion() {
 }
 
 function printList() {
-  console.log('printing list...');
+  console.log('List of Node.js processes:');
+
+  ps.lookup({ command: 'node' }, (err, resultList) => {
+    if (err) {
+      console.log('Error getting list:', err);
+    } else {
+      resultList.forEach((process) => {
+        console.log('PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments);
+      });
+    }
+  });
 }
 
 function signalProcess(pid) {

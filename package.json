@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/gonenduk/late-inspect#readme",
   "dependencies": {
-    "command-line-args": "^5.0.2"
+    "command-line-args": "^5.0.2",
+    "ps-node": "^0.1.6"
   }
 }

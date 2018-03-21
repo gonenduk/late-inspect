@@ -26,11 +26,17 @@ $ ./node_modules/.bin/inspect [process id]
 Will signal a running Node.js process with that id to start the debugger listener.
 Same effect as running with the --inspect flag without the need to restart the process.
 
-Works on Windows, Mac and Unix systems.  
+Works on Windows, Mac and Unix systems.
+  
+## Obtaining Process ID 
 
-For more available options run with -h or --help.
+To get a list of running Node.js process ids:
+```bash
+$ inspect --list
+```
+Will return a list of all running Node.js processes with their process id, command and arguments list. 
 
-
+For more available options run with -h or --help
 ## License
 
 [ISC](LICENSE)
