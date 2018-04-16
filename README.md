@@ -1,5 +1,8 @@
 # late-inspect 
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+
 Start the debugger listener on an already running Node.js process.
 
 ## Installation
@@ -40,3 +43,8 @@ For more available options run with -h or --help
 ## License
 
 [ISC](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/late-inspect.svg
+[npm-url]: https://npmjs.org/package/late-inspect
+[downloads-image]: https://img.shields.io/npm/dt/late-inspect.svg
+[downloads-url]: https://npmjs.org/package/late-inspect
