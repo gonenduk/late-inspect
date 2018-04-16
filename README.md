@@ -1,9 +1,9 @@
 # late-inspect 
 
+Start the debugger listener on an already running Node.js process.
+
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-
-Start the debugger listener on an already running Node.js process.
 
 ## Installation
 
