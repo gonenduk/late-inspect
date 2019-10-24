@@ -42,7 +42,9 @@ Will return a list of all running Node.js processes with their process id, comma
 For more available options run with -h or --help
 ## License
 
-[ISC](LICENSE)
+[MIT](LICENSE)
+
+<a href="https://www.buymeacoffee.com/Ry4Nvf1" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 [npm-image]: https://img.shields.io/npm/v/late-inspect.svg
 [npm-url]: https://npmjs.org/package/late-inspect
